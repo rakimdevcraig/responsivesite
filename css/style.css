@@ -1,0 +1,180 @@
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+.hero{
+  height:300px;
+  width: 100%;
+  background-color: rgb(63, 90, 130);
+  text-align: center;
+  color: white;
+}
+
+nav{
+  height: 70px;
+  width: 100%;
+  background-color: rgb(63, 90, 130);
+}
+
+.why{
+  height: 250px;
+  width: 100%;
+  text-align: center;
+}
+
+.bottom2{
+  height:300px;
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+}
+
+.volunteer{
+  height:300px;
+  width: 100%;
+  text-align: center;
+}
+.midhalf{
+  height:300px;
+  width: 50%;
+  float: left;
+}
+
+footer{
+  clear: both;
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.footsect{
+  height: 200px;
+  width:25%;
+  float: left;
+}
+
+.footsectright{
+  height: 200px;
+  width:25%;
+  float: left;
+  margin-left: 620px;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav ul li{
+  display: inline;
+
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.lg{
+  height: 30px;
+  width: 5%;
+  margin-left: 420px;
+}
+
+.donate{
+  margin-left: 530px;
+}
+
+.hero h1{
+  font-size: 40px;
+}
+
+.bluebox{
+  height: 100px;
+  margin-top: 20px;
+}
+
+.filist li{
+  display: inline;
+  margin: 10px;
+}
+
+.sitemap li{
+  display: inline;
+  margin: 10px;
+}
+
+.contribute li{
+  display: inline;
+  margin: 10px;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.footp{
+  margin-left: 80px;
+}
+
+/******************************************************
+tablet media query
+******************************************************/
+@media (min-width: 769px) and (max-width:992px){
+
+.lg{
+  margin-left: 290px;
+}
+
+.donate{
+  margin-left: 400px;
+}
+
+.why{
+  background-color: yellow;
+}
+
+.footsectright{
+  margin-left: 475px;
+}
+
+
+}
+
+
+
+/******************************************************
+phone media query
+******************************************************/
+
+@media only screen and (max-width:768px){
+
+.lg{
+  margin-left: 220px;
+}
+
+.donate{
+  margin-left: 210px;
+}
+
+.midhalf{
+  width: 100%;
+  background-color: gray;
+}
+
+.volunteer{
+  float: left;
+  background-color: green;
+}
+
+.footsectright{
+  margin-left: 365px;
+}
+
+}
